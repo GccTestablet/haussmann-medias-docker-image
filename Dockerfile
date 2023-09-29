@@ -8,7 +8,6 @@ ENV COMPOSER_HOME /composer
 # Add global binary directory to PATH and make sure to re-export it
 ENV PATH /composer/vendor/bin:$PATH
 
-ENV WKHTML_VERSION 0.12.6.1-2
 ENV NODEJS_VERSION=18.x
 ENV XDEBUG_VERSION 3.2.2
 ENV APCU_VERSION 5.1.22
