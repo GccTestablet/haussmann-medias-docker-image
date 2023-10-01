@@ -15,7 +15,7 @@ jobs:
       with:
         install: true
     - name: Build image
-      run: docker build . --load -t haussmann-medias/main
+      run: docker build . --load -t gccteam/haussmann-medias
     - name: Test the image
       run: docker-compose run --rm app bash -c 'node -v && npm -v && yarn -v && php -v'
     - name: Clean up containers

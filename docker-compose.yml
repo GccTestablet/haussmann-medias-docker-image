@@ -2,4 +2,4 @@ version: '3.8'
 services:
   app:
     build: .
-    image: haussmann-medias/app
+    image: gccteam/haussmann-medias
